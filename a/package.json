@@ -10,7 +10,6 @@
 		"directory": "a"
 	},
 	"scripts": {
-		"test": "jest",
 		"copy-non-ts-files": "copyfiles -u 1 src/**/*.onnx src/**/*.wasm ./",
 		"build": "tsc --outDir ./ && yarn copy-non-ts-files"
 	},
@@ -18,11 +17,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
 		"@babel/preset-typescript": "^7.16.7",
-		"@types/jest": "^27.4.0",
-		"babel-jest": "^27.5.1",
 		"copyfiles": "^2.4.1",
-		"jest": "^27.5.1",
-		"ts-jest": "^27.1.2",
 		"typescript": "^4.7.0-dev.20220406"
 	}
 }

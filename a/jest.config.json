@@ -1,6 +1,0 @@
-{
-    "testEnvironment": "jsdom",
-    "transformIgnorePatterns": [
-        "node_modules/(?!(@minimum-for-bug)/)"
-    ]
-}
